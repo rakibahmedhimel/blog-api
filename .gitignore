@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
+.env
+venv/
+ENV/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Alembic migrations cache
+alembic/__pycache__/
+
+# Logs
+*.log
+
+# Pytest cache
+.pytest_cache/
+
+# SQLite or temporary databases
+*.db
+
+# Byte-compiled / packaged
+*.egg-info/
+dist/
+build/
+
+# Docker
+*.pid
+*.sock

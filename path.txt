@@ -1,0 +1,36 @@
+# 📁 Project Structure
+fastapi-jwt-auth/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   ├── database.py
+│   ├── models/
+│   │   └── user.py
+│   |   └── blog.py
+│   |   └── like.py
+│   |   └── comment.py
+│   ├── schemas/
+│   │   └── user.py
+│   |   └── blog.py
+│   |   └── like.py
+│   |   └── comment.py
+│   ├── crud/
+│   │   └── user.py
+│   |   └── blog.py
+│   |   └── like.py
+│   |   └── comment.py
+│   ├── routes/
+│   │   └── auth.py
+|   |   └── user.py
+│   |   └── blog.py
+│   |   └── like.py
+│   |   └── comment.py
+│   ├── core/
+│   │   └── security.py
+│   └── deps.py
+├── .env
+├── requirements.txt
+└── README.md
+└── alembic/
+└── alembic.ini
